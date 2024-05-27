@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.para {
+    color: gray;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    font-size: 12px;
+}
+
+.parag {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.one {
+    position: relative;
+    top: 15px;
+    left: 400px;
+    font-size: 12px;
+    width: 50%;
+}
+
+.para1 {
+    color: #fff;
+}
+
+.para2 {
+    color: orangered;
+}
+
+.logo img {
+    width: 150px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    color: black;
+    width: 50px;
+}
+
+.icone {
+    display: flex;
+    gap: 30px;
+    color: gray;
+}
+
+.chiffre {
+    color: #fff;
+    font-size: 8px;
+    border: 3px solid orangered;
+    border-radius: 20px;
+    background-color: orangered;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(puma.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sect1 img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 5%;
+}
+
+.puma {
+    color: gray;
+    font-size: 20px;
+}
+
+.cadre {
+    color: #fff;
+    border: 2px solid #fff;
+    width: 150px;
+    height: 45px;
+    font-size: 12px;
+    margin-top: 5%;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span {
+    color: white;
+    margin-top: 4%;
+}
+
+.section2 {
+    background-color: #D1D1D4;
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image img {
+    width: 90%;
+    height: 80%;
+}
+
+.graphe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-top: 17px;
+}
+
+@media screen and (max-width:667px) {
+
+    .logo img {
+        padding: 30px;
+        margin-top: -30px;
+        margin-left: -70px;
+    }
+
+    .para {
+        color: gray;
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        font-size: 10px;
+    }
+
+    .parag {
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+        margin-top: 15px;
+        font-size: 9px;
+        margin-top: 20px;
+        margin-right: 8px;
+    }
+
+    .one {
+        font-size: 8px;
+        margin-left: -290px;
+        margin-top: -10px;
+    }
+
+    .navbar ul {
+        gap: 7px;
+        margin-right: 20px;
+
+    }
+
+    .icone {
+        gap: 0;
+        margin-right: -50px;
+    }
+
+.image{
+    margin-left: 30px;
+    margin-top: -250px;
+}
+
+
+}
